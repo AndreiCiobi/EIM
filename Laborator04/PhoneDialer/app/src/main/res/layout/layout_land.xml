@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneDialerActivity"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_edit_text"
+        android:enabled="false">
+    </EditText>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="4"
+        android:columnCount="5"
+        android:layout_gravity="center"
+        android:useDefaultMargins="true"
+        >
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_input_delete">
+        </ImageButton>
+
+        <Button
+            android:id="@+id/digit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="1"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/digit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="2"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/digit3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="3"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/digit4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:text="4"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/digit5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:text="5"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/digit6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="6"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/digit7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="7"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/digit8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:text="8"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/digit9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:text="9"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/sign_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="*"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/digit0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:text="0"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/sign_pound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:text="#"
+            >
+        </Button>
+
+        <ImageButton
+            android:id="@+id/call_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:src="@android:drawable/sym_call_outgoing">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/miss_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:src="@android:drawable/sym_call_missed">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/contacs_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:src="@android:drawable/sym_contact_card">
+        </ImageButton>
+
+    </GridLayout>
+
+
+
+</LinearLayout>
